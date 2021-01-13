@@ -1,0 +1,2 @@
+# Controlling-Long-Running-Processes-in-Containers-using-Python
+A python API which gains more control over processes running in docker containers. While sending GET request to localhost at port 5000 with endpoint /contain, it returns the dictionary of running containers. Then user can send POST request using name of running container along with the desired action like pause, resume or terminate. Pause will pause the processes running inside particular container, Resume will resume the paused process of container and Terminate will stop the container.
