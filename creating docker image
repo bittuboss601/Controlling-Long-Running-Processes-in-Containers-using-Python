@@ -1,0 +1,10 @@
+Download atlan.py & Dockerfile.env
+Open powershell/command line in administrator mode.
+set path to the folder where the step-1 files are placed.
+Now run the following code.
+docker build -f Dockerfile.env -t my_new_image:1.0 .
+docker run -v /var/run/docker.sock:/var/run/docker.sock -it -p 5000:5000 my_new_image:1.0
+Now your docker image is build and running at port 5000.
+To share your image you can push your image on dockerhub and change it's privacy to public.
+Here is my dockerhub public link for the API :- https://hub.docker.com/r/bittuboss601/atlan
+Happy Coding :)
